@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class CameraBound : MonoBehaviour
 {
-    public float LeftBound;
-    public float RightBound;
-    public float UpBound;
-    public float DownBound;
+    float Xmovement;
+    float YMovement;
+    public Vector2 MinPos;
+    public Vector2 MaxPos;
+    public float Smoothing;
+    public Transform Character;
+    
     void Start()
     {
         
@@ -16,21 +19,33 @@ public class CameraBound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.x < LeftBound)
+        if(transform.position.x < MaxPos.x && transform.position.y < MaxPos.y && transform.position.x >MinPos.x && transform.position.y > MinPos.y)
         {
-            transform.position = new Vector3(LeftBound, transform.position.y, transform.position.z);
+            Xmovement = Mathf.Lerp(transform.position.x, Character.position.x, Smoothing);
+            YMovement = Mathf.Lerp(transform.position.y, Character.position.y, Smoothing);
+            transform.position = new Vector3(Xmovement, YMovement, transform.position.z);
+           
         }
-        if(transform.position.x > RightBound)
+       if(transform.position.x > MaxPos.x )
         {
-            transform.position = new Vector3(RightBound, transform.position.y, transform.position.z);
+            transform.position = new Vector3(MaxPos.x, transform.position.y, transform.position.z);
         }
-        if(transform.position.y > UpBound)
+       
+       if(transform.position.y > MaxPos.y)
         {
-            transform.position = new Vector3(transform.position.x, UpBound, transform.position.z);
+            transform.position = new Vector3(transform.position.x, MaxPos.y, transform.position.z);
         }
-        if(transform.position.y < DownBound)
+        
+        if (transform.position.x < MinPos.x)
         {
-            transform.position = new Vector3(transform.position.x, DownBound, transform.position.z);
+            transform.position = new Vector3(MinPos.x, transform.position.y, transform.position.z);
         }
+       
+        if (transform.position.y < MinPos.y)
+        {
+            transform.position = new Vector3(transform.position.x, MinPos.y, transform.position.z);
+        }
+        
     }
+    
 }
