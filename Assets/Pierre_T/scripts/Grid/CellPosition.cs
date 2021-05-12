@@ -30,7 +30,7 @@ public class CellPosition : MonoBehaviour
       float boundsLeft = -3;
       float boundsRight = 12;
       float boundsUp = 0;
-      float boundsDown = -9f;
+      float boundsDown = -7f;
       Vector2 PlayerPos =  new Vector2(0, 0);
       Vector3 TouchedObstacles;
       GridMovement PlayerMovement;
