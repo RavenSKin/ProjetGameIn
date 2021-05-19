@@ -1,0 +1,2 @@
+[2021-5-18 15:53:21] layer "CHEMIN.png": Duplicate path: CHEMIN.png
+[2021-5-18 15:53:21] layer "Herbe.png": Duplicate path: Herbe.png
