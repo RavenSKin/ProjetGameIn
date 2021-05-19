@@ -4,11 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GridMovement : MonoBehaviour
-{   [Header("Valeur test")]
-
+{
+    [Header("Valeur test")]
+    GameObject enemy;
+    
+    [Header("Code sur")]
+    bool invertMovePattern;
+    public List<Vector2> Corner = new List<Vector2>();
+    public bool IsCorner;
     public bool ObstacleHorizontal;
     public bool ObstacleVertical;
-    [Header("Code sur")]
     public float Current_PM;
     public bool PlayerEndTurn;
     bool CanWalk;
@@ -28,7 +33,7 @@ public class GridMovement : MonoBehaviour
     Vector2 Cell_Position;
     Vector2 FirstPosition;
     Vector2 target;
-    Vector2 CharacterPosition;
+    public Vector2 CharacterPosition;
     Vector2 TopRay;
     Vector2 BotRay;
     Vector2 LeftRay;
@@ -43,22 +48,26 @@ public class GridMovement : MonoBehaviour
         CollisionLayerMask = 1<< 6;
         FirstPosition = new Vector2(0, 0);
         Current_PM = Max_PM;
+        
     }
     void Update()
     {
         ShootRaycast();
-       
+        CheckPlayerPosition();
         if (Current_PM < 0) // PM manager
         {
             Current_PM = 0;
         }
         SetCharacterPosition(); 
         GetTarget();
-        if (TargetGetted && CanWalk) // deplacement du joueur
-        {
+      
+            if (TargetGetted && CanWalk) // deplacement du joueur
+            {
 
-            DistanceCalcul();
-        }
+                DistanceCalcul();
+            }
+       
+     
       
         if(SwitchToX && SwitchToY && CharacterPosition == target)
         {
@@ -84,20 +93,48 @@ public class GridMovement : MonoBehaviour
     {
 
         DistanceX = Mathf.Abs(target.x - CharacterPosition.x);
-        DistanceY = Mathf.Abs(target.y - CharacterPosition.y);        
-        if (DistanceX > DistanceY)      // Si le joueur se situe loin a l'horizontal
+        DistanceY = Mathf.Abs(target.y - CharacterPosition.y);
+        if (!ObstacleHorizontal && !ObstacleVertical && !IsCorner)
+        {
+            if (DistanceX > DistanceY)      // Si la target se situe loin a l'horizontal
+            {
+                SwitchToY = true;
+                LookForYDirection();
+                LookForXDirection();
+            }
+            if (DistanceX < DistanceY)
+            {
+                SwitchToX = true;
+                LookForXDirection();
+                LookForYDirection();
+            }
+            if (DistanceX == DistanceY)
+            {
+                SwitchToX = true;
+                LookForXDirection();
+                LookForYDirection();
+            }
+        }
+        if (IsCorner)
         {
             SwitchToY = true;
             LookForYDirection();
             LookForXDirection();
         }
-        if (DistanceX < DistanceY)
+
+        if (ObstacleHorizontal && !ObstacleVertical && !IsCorner)
+        {
+            SwitchToY = true;
+            LookForYDirection();
+            LookForXDirection();
+        }
+        if (ObstacleVertical && !ObstacleHorizontal &&!IsCorner)
         {
             SwitchToX = true;
             LookForXDirection();
             LookForYDirection();
         }
-        if(DistanceX == DistanceY)
+        if(ObstacleVertical && ObstacleHorizontal && !IsCorner)
         {
             SwitchToX = true;
             LookForXDirection();
@@ -240,6 +277,30 @@ public class GridMovement : MonoBehaviour
         BotRay = Vector2.down;
         LeftRay = Vector2.left;
         RightRay = Vector2.right;
+    }
+    void CheckPlayerPosition()
+    {
+        if(CharacterPosition == target)
+        {
+            IsCorner = false;
+        }
+        if(transform.position.y > target.y)
+        {
+            invertMovePattern = true;
+        }
+        else { invertMovePattern = false; }
+        foreach(Vector2 _corner in Corner)
+        {
+            if(CharacterPosition == _corner)
+            {
+                IsCorner = true;
+            }
+          
+        }
+    }
+    void FindEnemy()
+    {
+      
     }
    
 }

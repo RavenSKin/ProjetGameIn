@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.1f1 (6fdc41dfa55a) revision 7330881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 15789 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'fr' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,501 +11,143 @@ C:\Program Files\Unity\Hub\Editor\2021.1.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Fursona/P'tit Mouton/Ecole/E-artsup/Cours 2ème année/FINAL PROJECT/fork/v1.0/Projet DiscorveryGame
+C:/Users/Sylvie/Desktop/Projet_DiscoveryGames
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51520
-Successfully changed project path to: D:/Fursona/P'tit Mouton/Ecole/E-artsup/Cours 2ème année/FINAL PROJECT/fork/v1.0/Projet DiscorveryGame
-D:/Fursona/P'tit Mouton/Ecole/E-artsup/Cours 2ème année/FINAL PROJECT/fork/v1.0/Projet DiscorveryGame
+54045
+Successfully changed project path to: C:/Users/Sylvie/Desktop/Projet_DiscoveryGames
+C:/Users/Sylvie/Desktop/Projet_DiscoveryGames
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 76.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Fursona/P'tit Mouton/Ecole/E-artsup/Cours 2ème année/FINAL PROJECT/fork/v1.0/Projet DiscorveryGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Sylvie/Desktop/Projet_DiscoveryGames/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
     Vendor:   NVIDIA
     VRAM:     5991 MB
-    Driver:   27.21.14.6627
+    Driver:   27.21.14.5763
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002140 seconds.
+Registered in 0.003742 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.17 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
+- Completed reload, in  1.469 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003578 seconds.
+Registered in 0.004003 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
+- Completed reload, in  0.929 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2774 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.4 MB.
-System memory in use after: 102.6 MB.
+System memory in use before: 101.7 MB.
+System memory in use after: 101.9 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3231.
-Total: 2.555800 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.143800 ms MarkObjects: 2.018700 ms  DeleteObjects: 0.066100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3231.
+Total: 2.498700 ms (FindLiveObjects: 0.439500 ms CreateObjectMapping: 0.165200 ms MarkObjects: 1.826200 ms  DeleteObjects: 0.066800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Pierre_T/Sprite_Temporaire
-  artifactKey: Guid(cdd541b33ff0af74e81e085c338f64e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire using Guid(cdd541b33ff0af74e81e085c338f64e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba6e9459065baac5ae18ae54d2f202a') in 0.014497 seconds 
+  path: Assets/Pierre_T/scripts/Ennemi
+  artifactKey: Guid(e0e99d573dfd43b44a38a252468d8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pierre_T/scripts/Ennemi using Guid(e0e99d573dfd43b44a38a252468d8d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9770d1637fb5ea2768c803ec686ae25') in 0.005275 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.302606 seconds.
-  path: Assets/Pierre_T/scripts/Grid
-  artifactKey: Guid(54b0aedb8342ad448b8bdd49c95ac159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/scripts/Grid using Guid(54b0aedb8342ad448b8bdd49c95ac159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4735d3f2df7676f3ab126665438618c2') in 0.005120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.152421 seconds.
-  path: Assets/Pixel Art-assets
-  artifactKey: Guid(15d239a9510552f4bb4189c6447aeb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets using Guid(15d239a9510552f4bb4189c6447aeb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb568422944c40d5913338df22faa19a') in 0.005246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042959 seconds.
-  path: Assets/Pixel Art-assets/ANKAMA.png
-  artifactKey: Guid(92a137b21d29a684f9e76817488715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/ANKAMA.png using Guid(92a137b21d29a684f9e76817488715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9af963abe110b8f1a8de86e365c2b0') in 0.101138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/Pixel Art-assets/GRILLE.png
-  artifactKey: Guid(a864bbdf134c86e45b80772da86291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE.png using Guid(a864bbdf134c86e45b80772da86291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f02250c07eaa9fce7e7e97bd5de86b') in 0.012887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Pixel Art-assets/BOIS.png
-  artifactKey: Guid(e027d5c7ccfc039429d97c0ea8655533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/BOIS.png using Guid(e027d5c7ccfc039429d97c0ea8655533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6aaaa504dea6fe0ee69b658c772a5') in 0.040842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Pixel Art-assets/Herbe.png
-  artifactKey: Guid(ebc01d6f92a34514db5a2f82a7acab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Herbe.png using Guid(ebc01d6f92a34514db5a2f82a7acab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87529867634f6394cf680e257f088aee') in 0.013641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Pixel Art-assets/CGC.png
-  artifactKey: Guid(bc3b49c0c67a9aa4b950a7682d7764d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CGC.png using Guid(bc3b49c0c67a9aa4b950a7682d7764d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c9f3ea0674bbe9c0b87cae6cac703') in 0.013685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Pixel Art-assets/GRILLE3.png
-  artifactKey: Guid(751b6092211d8114d92711304f6fa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE3.png using Guid(751b6092211d8114d92711304f6fa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefc6882b8c20ce574c9936798464e34') in 0.015704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Pixel Art-assets/CHEMIN.png
-  artifactKey: Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMIN.png using Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cbae185f59210226c96f1a9aa30fa8') in 0.011769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Pixel Art-assets/Eartsup.png
-  artifactKey: Guid(191b5775af756234392ef3374f8a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Eartsup.png using Guid(191b5775af756234392ef3374f8a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2562d4a16b2ce1f61494dda83bc37e') in 0.012346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Pixel Art-assets/HERBE1.png
-  artifactKey: Guid(5d73789270ecb0c44bd156e6c3456ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/HERBE1.png using Guid(5d73789270ecb0c44bd156e6c3456ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e091939657d9b1e47148b67bab47ed84') in 0.193003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Pixel Art-assets/Ombre.png
-  artifactKey: Guid(cd6e5519f7c64bf4f9c49d315b6907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Ombre.png using Guid(cd6e5519f7c64bf4f9c49d315b6907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5944cabc21f3b271cff1450cfb5ac039') in 0.013727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Pixel Art-assets/ROCHER.png
-  artifactKey: Guid(6c6d8689bdf5b4645b91ec55f80bae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/ROCHER.png using Guid(6c6d8689bdf5b4645b91ec55f80bae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f591d0f6bcee14c20a3b41333a78ce3e') in 0.012418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Pixel Art-assets/MAIS.png
-  artifactKey: Guid(414cb8e25c771c64fb144c4be3880bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/MAIS.png using Guid(414cb8e25c771c64fb144c4be3880bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eddb234cd2a6a9b2a388743f12c65f4') in 0.013112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Pixel Art-assets/CHONIRIC.png
-  artifactKey: Guid(262d6f4e1e211654099fd2f76e2583e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHONIRIC.png using Guid(262d6f4e1e211654099fd2f76e2583e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb42cafe2700ff0c093b7c6b3bab58fb') in 0.011995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Pixel Art-assets/CHAMPS.png
-  artifactKey: Guid(01ac62f6ddcb6164380c7304cfc3ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHAMPS.png using Guid(01ac62f6ddcb6164380c7304cfc3ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e08fcc6107454a417f48e3b8bf9857') in 0.011905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Pixel Art-assets/arbre.png
-  artifactKey: Guid(2643f1e0e64c16e4ab08e4bc4814e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/arbre.png using Guid(2643f1e0e64c16e4ab08e4bc4814e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d918dfc1c8c674b945e05f072f350f') in 0.011916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Pixel Art-assets/GRILLE4.png
-  artifactKey: Guid(d704936fe29a12841997ba6db71ab692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE4.png using Guid(d704936fe29a12841997ba6db71ab692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4fec48cc18f1025a121955c2b6db0e') in 0.010783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Pixel Art-assets/GRILLE2.png
-  artifactKey: Guid(6fdede1f2c9bc3744859d961da1e2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE2.png using Guid(6fdede1f2c9bc3744859d961da1e2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1691c2f3947412b01682027ef454e5') in 0.068024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Pixel Art-assets/Herbe2.png
-  artifactKey: Guid(f02aaca06d5ba334bbad1f3a6bf28828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Herbe2.png using Guid(f02aaca06d5ba334bbad1f3a6bf28828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a24863681a7a60b4bdd4972f88852f') in 0.011747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.914197 seconds.
-  path: Assets/Pixel Art-assets/ANKAMA.png
-  artifactKey: Guid(92a137b21d29a684f9e76817488715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/ANKAMA.png using Guid(92a137b21d29a684f9e76817488715c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a250bff1598e59ffe00e0a80330746') in 0.078263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Pixel Art-assets/GRILLE.png
-  artifactKey: Guid(a864bbdf134c86e45b80772da86291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE.png using Guid(a864bbdf134c86e45b80772da86291ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21434ffedf1132dc996a51dbe7cda94') in 0.014333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Pixel Art-assets/BOIS.png
-  artifactKey: Guid(e027d5c7ccfc039429d97c0ea8655533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/BOIS.png using Guid(e027d5c7ccfc039429d97c0ea8655533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c13bd6591627cae52a2acf9e8bed2d') in 0.014659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000590 seconds.
-  path: Assets/Pixel Art-assets/Herbe.png
-  artifactKey: Guid(ebc01d6f92a34514db5a2f82a7acab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Herbe.png using Guid(ebc01d6f92a34514db5a2f82a7acab99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8824d653ee5d51f8deff9db44e62386a') in 0.013976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Pixel Art-assets/CGC.png
-  artifactKey: Guid(bc3b49c0c67a9aa4b950a7682d7764d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CGC.png using Guid(bc3b49c0c67a9aa4b950a7682d7764d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c531955b6b0667175fd086ac2967dc7') in 0.014662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Pixel Art-assets/GRILLE3.png
-  artifactKey: Guid(751b6092211d8114d92711304f6fa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE3.png using Guid(751b6092211d8114d92711304f6fa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59216b164869a0177f34f04edc4102a') in 0.014878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Pixel Art-assets/CHEMIN.png
-  artifactKey: Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMIN.png using Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a7646c2bdf9edf8f00fce0924982d3') in 0.013816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Pixel Art-assets/Eartsup.png
-  artifactKey: Guid(191b5775af756234392ef3374f8a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Eartsup.png using Guid(191b5775af756234392ef3374f8a2737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6d3d69adaf5d30e90f05ae25842220') in 0.014677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Pixel Art-assets/HERBE1.png
-  artifactKey: Guid(5d73789270ecb0c44bd156e6c3456ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/HERBE1.png using Guid(5d73789270ecb0c44bd156e6c3456ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174a8e445a665a71f521cd87be400eb1') in 0.012811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Pixel Art-assets/Ombre.png
-  artifactKey: Guid(cd6e5519f7c64bf4f9c49d315b6907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Ombre.png using Guid(cd6e5519f7c64bf4f9c49d315b6907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e963a68320b35ccc6e2f07b5c8d2f') in 0.013819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Pixel Art-assets/ROCHER.png
-  artifactKey: Guid(6c6d8689bdf5b4645b91ec55f80bae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/ROCHER.png using Guid(6c6d8689bdf5b4645b91ec55f80bae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22d005598296e408a89f398a5f200a') in 0.012362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Pixel Art-assets/MAIS.png
-  artifactKey: Guid(414cb8e25c771c64fb144c4be3880bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/MAIS.png using Guid(414cb8e25c771c64fb144c4be3880bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4adbf6643f4243cb5ee77beead9554') in 0.013544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Pixel Art-assets/CHONIRIC.png
-  artifactKey: Guid(262d6f4e1e211654099fd2f76e2583e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHONIRIC.png using Guid(262d6f4e1e211654099fd2f76e2583e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401658931c81b0fb9f232eba94868f81') in 0.014689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Pixel Art-assets/CHAMPS.png
-  artifactKey: Guid(01ac62f6ddcb6164380c7304cfc3ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHAMPS.png using Guid(01ac62f6ddcb6164380c7304cfc3ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df40411b0c0716b94f486e06461b852') in 0.014706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Pixel Art-assets/arbre.png
-  artifactKey: Guid(2643f1e0e64c16e4ab08e4bc4814e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/arbre.png using Guid(2643f1e0e64c16e4ab08e4bc4814e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc3f90d8bbdfa75ab2e4471776e0c63') in 0.014157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Pixel Art-assets/GRILLE4.png
-  artifactKey: Guid(d704936fe29a12841997ba6db71ab692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE4.png using Guid(d704936fe29a12841997ba6db71ab692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270b5f272c214ecb6d27cfb47ab6796d') in 0.012505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Pixel Art-assets/GRILLE2.png
-  artifactKey: Guid(6fdede1f2c9bc3744859d961da1e2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/GRILLE2.png using Guid(6fdede1f2c9bc3744859d961da1e2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7d687a42e01105f64fa088053d1eba') in 0.013778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Pixel Art-assets/Herbe2.png
-  artifactKey: Guid(f02aaca06d5ba334bbad1f3a6bf28828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/Herbe2.png using Guid(f02aaca06d5ba334bbad1f3a6bf28828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27f91a2f2e5553fe74dc3feba29c3e') in 0.012356 seconds 
+  Time since last request: 16.712401 seconds.
+  path: Assets/Pierre_T/scripts/Ennemi/Manequin.cs
+  artifactKey: Guid(a45200752fe7d764985953f932c27ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pierre_T/scripts/Ennemi/Manequin.cs using Guid(a45200752fe7d764985953f932c27ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c032144f382059c0717ddbfd832d99c') in 0.032377 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004828 seconds.
+Registered in 0.003412 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
+- Completed reload, in  0.989 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2786 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.9 MB.
-System memory in use after: 125.2 MB.
+Unloading 2770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.7 MB.
+System memory in use after: 101.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3805.
-Total: 2.407900 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.991700 ms  DeleteObjects: 0.025900 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 3.694300 ms (FindLiveObjects: 0.410300 ms CreateObjectMapping: 0.228900 ms MarkObjects: 2.989500 ms  DeleteObjects: 0.064300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 3.166500 ms (FindLiveObjects: 0.645400 ms CreateObjectMapping: 0.229200 ms MarkObjects: 2.240100 ms  DeleteObjects: 0.050800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.962645 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/Experimental.spriteatlas
-  artifactKey: Guid(3b6c2b45a55aef64eb23c67f3b533353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/Experimental.spriteatlas using Guid(3b6c2b45a55aef64eb23c67f3b533353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Invalid sprite atlas asset encountered when matching atlas for sprite mur. Please repack all your sprite atlases.
+  Time since last request: 369.908315 seconds.
+  path: Assets/Pierre_T/scripts/Ennemi/Manequin.cs
+  artifactKey: Guid(a45200752fe7d764985953f932c27ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pierre_T/scripts/Ennemi/Manequin.cs using Guid(a45200752fe7d764985953f932c27ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee9fc2d6b5ae559f9c36440d263b728') in 0.006376 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 102.0 MB.
 
-Invalid sprite atlas asset encountered when matching atlas for sprite mur_bas_2. Please repack all your sprite atlases.
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 2.190400 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.192900 ms MarkObjects: 1.667800 ms  DeleteObjects: 0.046900 ms)
 
-Invalid sprite atlas asset encountered when matching atlas for sprite mur_bas_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mur_bas_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tapis_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tiles_mur_bas_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tiles_noir. Please repack all your sprite atlases.
-
- -> (artifact id: 'efa2bec1cad5a461b1875b2228b50c2f') in 0.022359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn 1.png
-  artifactKey: Guid(be333e1c4e1728243b4baddc7f0d8d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn 1.png using Guid(be333e1c4e1728243b4baddc7f0d8d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1c3cbf042080099678a67308c67235') in 0.382643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/spriteSheet_Example.png
-  artifactKey: Guid(bcc7abba18025114dab11555131c247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/spriteSheet_Example.png using Guid(bcc7abba18025114dab11555131c247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff24741ef9351c95b74348be27990e19') in 0.187869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/mur.png
-  artifactKey: Guid(75bdeb4c96c870a4c849d842678bb727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/mur.png using Guid(75bdeb4c96c870a4c849d842678bb727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e143ce554a94fe74b7d01dc0b8346e24') in 0.353205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn_114.asset
-  artifactKey: Guid(2402bb45f2ca056498e92341e430a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn_114.asset using Guid(2402bb45f2ca056498e92341e430a9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3488d8cbaecc2caa95ba3c46c7f90a') in 0.019187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/mur_bas_2.png
-  artifactKey: Guid(84d22fafde8874c4394f229ecb1fadba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/mur_bas_2.png using Guid(84d22fafde8874c4394f229ecb1fadba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be039ef475b36764a4f6cbe1bad8548b') in 0.071263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/mur_bas_4.png
-  artifactKey: Guid(7bc46247361f9dd4b9624f7ba006e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/mur_bas_4.png using Guid(7bc46247361f9dd4b9624f7ba006e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298c5569280278c3ba1f473f07ba9a63') in 0.056584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/house.png
-  artifactKey: Guid(5ef7e811c6518a04dbf7e74b8b84fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/house.png using Guid(5ef7e811c6518a04dbf7e74b8b84fba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63984122059fef3c9e7cd595e46d2c9e') in 0.061087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/gradient_fade.png
-  artifactKey: Guid(cfff5bb474e511d4988b0bf3e7d76323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/gradient_fade.png using Guid(cfff5bb474e511d4988b0bf3e7d76323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2083905408c13088fe76a11d0afb62') in 0.223904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tapis_1.png
-  artifactKey: Guid(6554d01178c809f4eb92e63834963fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tapis_1.png using Guid(6554d01178c809f4eb92e63834963fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaed7348b45c431097543302dc23ec4') in 0.084757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/mur_bas_3.png
-  artifactKey: Guid(e79d3f6ece0e46d4194b2330630c5e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/mur_bas_3.png using Guid(e79d3f6ece0e46d4194b2330630c5e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b67d2f1343b4dbc9e942c3e423f9ce') in 0.045398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tiles_noir.png
-  artifactKey: Guid(e99def5264fa2ec48a9bb0e643e68d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tiles_noir.png using Guid(e99def5264fa2ec48a9bb0e643e68d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43f833de26470ce4a062c47276b71f7') in 0.046139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tiles_Chateau.png
-  artifactKey: Guid(8fd106afc08b7704da927f272f7a7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tiles_Chateau.png using Guid(8fd106afc08b7704da927f272f7a7bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d7759fef75e0bb426d9b8405429df3') in 0.043508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tiles_mur_bas_1.png
-  artifactKey: Guid(1ac90d7704b245f42b60a778647b7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tiles_mur_bas_1.png using Guid(1ac90d7704b245f42b60a778647b7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633ef67697bb9e8345379fd8020292ec') in 0.041329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn_26.asset
-  artifactKey: Guid(593bcb0f23249eb45a5670ec19dbee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn_26.asset using Guid(593bcb0f23249eb45a5670ec19dbee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06910bf1849670b1cac0e3d01dcabc6e') in 0.046222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/SpriteSheet_Test.png
-  artifactKey: Guid(028f83f5712701e4eb2268b927be246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/SpriteSheet_Test.png using Guid(028f83f5712701e4eb2268b927be246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3f21e91deb5ca810074100d8a3093') in 0.039498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn.png
-  artifactKey: Guid(0d17efc62f651604e9b9ef2dac65aa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Sprite_Temporaire/tileset_temporaire_GameIn.png using Guid(0d17efc62f651604e9b9ef2dac65aa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d8d1ea980fce5a92eafe7c9915f82') in 0.236550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.215587 seconds.
-  path: Assets/Pierre_T/Resources
-  artifactKey: Guid(4a2f8ad979a503f4db448ea2078026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Resources using Guid(4a2f8ad979a503f4db448ea2078026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0158c2e58eae167c33edb74c0e795583') in 0.005372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053070 seconds.
-  path: Assets/Pierre_T/Resources/Grass.prefab
-  artifactKey: Guid(dc7194784f618464e866eb9438709778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Resources/Grass.prefab using Guid(dc7194784f618464e866eb9438709778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531bb08ef5a00f7ac7ac05a4f58ab7d2') in 0.119571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Pierre_T/Resources/tilessol.prefab
-  artifactKey: Guid(a285f1261e0ceff47b741d17775f2471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pierre_T/Resources/tilessol.prefab using Guid(a285f1261e0ceff47b741d17775f2471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0253bf2f8ed054474ac7c6d27f114aff') in 0.012324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 170.359583 seconds.
-  path: Assets/Pixel Art-assets/CHEMIN.png
-  artifactKey: Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMIN.png using Guid(483dd770c80f965429e530c2e89227cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d4d65ef783ee77e22b3b8fa7f9b595') in 0.063787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 108.043347 seconds.
-  path: Assets/Pixel Art-assets/SOL.png
-  artifactKey: Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/SOL.png using Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c1199a01d92613b5457fdd6bceedb') in 0.021732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.399162 seconds.
-  path: Assets/Pixel Art-assets/SOL.png
-  artifactKey: Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/SOL.png using Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0610d8583307fa6b677b1f2e877226a3') in 0.086149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 449.102569 seconds.
-  path: Assets/Pixel Art-assets/SOL.png
-  artifactKey: Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/SOL.png using Guid(0c9eaea84f89cb044bed43f5b5a10c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2b56ff0232bd31882b10842a78c523') in 0.324767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 604.095025 seconds.
-  path: Assets/Pixel Art-assets/CHEMINs.png
-  artifactKey: Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMINs.png using Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a6fc6198aaf36418487d6f06198188') in 0.017546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.392020 seconds.
-  path: Assets/Pixel Art-assets/CHEMINs.png
-  artifactKey: Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMINs.png using Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e289eac58466ca3b8bb2a4ce24bc922a') in 0.078974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.468936 seconds.
-  path: Assets/Pixel Art-assets/CHEMINs.png
-  artifactKey: Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMINs.png using Guid(6dd1318cf09dd7246961bbc7bead83b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1737d2c124ad3f556338c2aa7ea60d') in 0.331145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 165.036189 seconds.
-  path: Assets/Pixel Art-assets/CHEMfIN.png
-  artifactKey: Guid(8495c8b344ff1d341af0072f9389bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMfIN.png using Guid(8495c8b344ff1d341af0072f9389bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b76573a47c87da4ca0a4657c3473a1') in 0.025439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.478727 seconds.
-  path: Assets/Pixel Art-assets/CHEMfIN.png
-  artifactKey: Guid(8495c8b344ff1d341af0072f9389bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Art-assets/CHEMfIN.png using Guid(8495c8b344ff1d341af0072f9389bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fc693fec4a2ac67c6e0f51784b76f7') in 0.392551 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
