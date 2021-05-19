@@ -63,13 +63,14 @@
     <Compile Include="Assets\Voisin.cs" />
     <Compile Include="Assets\Pierre_T\scripts\Grid\GridMovement.cs" />
     <Compile Include="Assets\Pierre_T\scripts\Grid\CellPosition.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\Ennemi\Manequin.cs" />
     <Compile Include="Assets\Pierre_T\scripts\World\ToDelete.cs" />
     <Compile Include="Assets\CollisionDetection.cs" />
     <Compile Include="Assets\blockSight.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\Grid\Empty.cs" />
     <Compile Include="Assets\Pierre_T\Fade.cs" />
     <Compile Include="Assets\Pierre_T\Movement.cs" />
     <Compile Include="Assets\Pierre_T\EventHouse.cs" />
-    <Compile Include="Assets\Pierre_T\scripts\Ennemi\Manequin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
