@@ -330,6 +330,7 @@
 "Assets/Pierre_T/InsideHouse.cs"
 "Assets/Pierre_T/Movement.cs"
 "Assets/Pierre_T/OutsideHouse.cs"
+"Assets/Pierre_T/scripts/Ennemi/Manequin.cs"
 "Assets/Pierre_T/scripts/Grid/CellPosition.cs"
 "Assets/Pierre_T/scripts/Grid/GridMovement.cs"
 "Assets/Pierre_T/scripts/World/CameraBound.cs"

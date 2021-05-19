@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1A520655-1389-6FE3-EBC8-AB99BE1D2734}</ProjectGuid>
+    <ProjectGuid>{F2A459CA-CA9E-A982-ACB3-408DE767F9BF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,11 +63,13 @@
     <Compile Include="Assets\Voisin.cs" />
     <Compile Include="Assets\Pierre_T\scripts\Grid\GridMovement.cs" />
     <Compile Include="Assets\Pierre_T\scripts\Grid\CellPosition.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\World\ToDelete.cs" />
     <Compile Include="Assets\CollisionDetection.cs" />
     <Compile Include="Assets\blockSight.cs" />
     <Compile Include="Assets\Pierre_T\Fade.cs" />
     <Compile Include="Assets\Pierre_T\Movement.cs" />
     <Compile Include="Assets\Pierre_T\EventHouse.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\Ennemi\Manequin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -619,31 +621,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{0947FD27-A1A5-1A3B-40AB-FBC846ADC045}</Project>
+      <Project>{9931AE57-207B-BD93-C897-CD05EF5E5034}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{85C1C969-6F25-BE29-B582-3D3D49785529}</Project>
+      <Project>{BC6F6EC9-94A6-AAD2-CFC0-76AF341887D0}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{F1E3A417-8C6E-B731-4706-81A4B7861F3D}</Project>
+      <Project>{D8B0CF77-13EB-823D-8F88-3CAED19C84F2}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{53D1DF73-2D3B-09A1-C14A-B14F40B97441}</Project>
+      <Project>{F46DBE71-2822-7CBC-FC86-046F1DBF2E15}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{38A0454C-47A6-52A9-1698-BF2CB62F595A}</Project>
+      <Project>{3588C21B-3A54-26D7-97DE-520F9EBDF94A}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{B73D253F-4DF7-F48B-C770-FD0EC99DC2ED}</Project>
+      <Project>{F57C9CAD-F002-6C3E-BC36-4FBF531F94A8}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{9CF85190-8FC3-C73F-7030-7AD44BCD9F44}</Project>
+      <Project>{FE33AAF0-9435-6B7B-35EA-22D9ECD5806E}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
   </ItemGroup>

@@ -99,7 +99,7 @@ public class CellPosition : MonoBehaviour
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
+      
         OutOfSight = true;
        
     }
