@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     Vector2 CharacterPos;
     
     public Rigidbody2D rb2D;
-    public float moveSpeed = 5f;
+    public float moveSpeed ;
     public Transform MovePoint;
     public LayerMask Object;
     public float moveDistance;
@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour
             }
         }
         CharacterPos = new Vector2(moveX, moveY).normalized;
-        rb2D.velocity = CharacterPos;
+        rb2D.velocity = CharacterPos*moveSpeed;
     }
 
    
