@@ -111,9 +111,11 @@ GameObject:
   - component: {fileID: 8776873298893576230}
   - component: {fileID: 8776873298893576225}
   - component: {fileID: 8776873298893576227}
+  - component: {fileID: 5250511861465964899}
   - component: {fileID: 8776873298893576231}
   - component: {fileID: 8776873298893576224}
   - component: {fileID: 8776873298893576228}
+  - component: {fileID: 6510536335123581181}
   m_Layer: 0
   m_Name: female character
   m_TagString: Untagged
@@ -207,6 +209,18 @@ MonoBehaviour:
   IsMovingHorizontal: 0
   IsMovingVertical: 0
   IsMoving: 0
+--- !u!114 &5250511861465964899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8776873298893576226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c3a9b0932bece4d8609707f165323d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &8776873298893576231
 Rigidbody2D:
   serializedVersion: 4
@@ -263,6 +277,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6510536335123581181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8776873298893576226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3eb81780b3f274389f917e6c6dcc27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI_Inventory: {fileID: 0}
 --- !u!1 &8776873299015044691
 GameObject:
   m_ObjectHideFlags: 0

@@ -114,6 +114,8 @@ GameObject:
   - component: {fileID: 6046953602703361871}
   - component: {fileID: 6046953602703361864}
   - component: {fileID: 6046953602703361868}
+  - component: {fileID: 1569116932468926790}
+  - component: {fileID: 4500860836719767503}
   m_Layer: 0
   m_Name: male character
   m_TagString: Untagged
@@ -207,6 +209,7 @@ MonoBehaviour:
   IsMovingHorizontal: 0
   IsMovingVertical: 0
   IsMoving: 0
+  CanMove: 0
 --- !u!50 &6046953602703361871
 Rigidbody2D:
   serializedVersion: 4
@@ -263,6 +266,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1569116932468926790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6046953602703361866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c3a9b0932bece4d8609707f165323d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4500860836719767503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6046953602703361866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3eb81780b3f274389f917e6c6dcc27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI_Inventory: {fileID: 0}
 --- !u!1 &6046953602850328891
 GameObject:
   m_ObjectHideFlags: 0
