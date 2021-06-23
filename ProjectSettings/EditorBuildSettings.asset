@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/GameIn.unity
+    guid: 86c4266374baddb45a3df59e5bcbab20
+  - enabled: 1
     path: Assets/Scenes/World_1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Dofus.unity
+    guid: fa65ad60e403aa84cbdfc7b49ad2c79b
+  - enabled: 1
+    path: Assets/Scenes/Ankama.unity
+    guid: 66884868b4a038d43ba8d1ba7fd2904e
+  - enabled: 1
+    path: Assets/Scenes/E_artsup.unity
+    guid: 1fa10a9a1d9669f41a84faa152c402d1
+  - enabled: 1
+    path: Assets/Scenes/Chroniric.unity
+    guid: 83e0bef54bf13494ba42e288d75c1849
+  - enabled: 1
+    path: Assets/Scenes/CouchGameCrafters.unity
+    guid: 1f8b73df9b607bd41ba79da8b4cf744a
   m_configObjects: {}
