@@ -58,22 +58,56 @@
   <ItemGroup>
     <Compile Include="Assets\Pierre_T\OutsideHouse.cs" />
     <Compile Include="Assets\Pierre_T\InsideHouse.cs" />
+    <Compile Include="Assets\Inventory.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\World\PositionManager.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\Character\Selector.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\World\Interaction_Porte.cs" />
     <Compile Include="Assets\Pierre_T\FollowCharacter.cs" />
     <Compile Include="Assets\Pierre_T\scripts\World\CameraBound.cs" />
-    <Compile Include="Assets\Voisin.cs" />
-    <Compile Include="Assets\Pierre_T\scripts\Grid\GridMovement.cs" />
-    <Compile Include="Assets\Pierre_T\scripts\Grid\CellPosition.cs" />
-    <Compile Include="Assets\Pierre_T\scripts\Ennemi\Manequin.cs" />
+    <Compile Include="Assets\Dialog_Stuff\Script\ProfessorDialog.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Player\Show_Pattern.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Grid\Voisin.cs" />
+    <Compile Include="Assets\SceneChanger.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Spell\Spell.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Player\Player_Manager.cs" />
+    <Compile Include="Assets\Dialog_Stuff\Script\DialogEvent.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Grid\CellPosition.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\Ennemi\Manequin.cs" />
     <Compile Include="Assets\Pierre_T\scripts\World\ToDelete.cs" />
-    <Compile Include="Assets\CollisionDetection.cs" />
-    <Compile Include="Assets\blockSight.cs" />
-    <Compile Include="Assets\Pierre_T\scripts\Grid\Empty.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\NormalMode\StateManager.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\World\Porte.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Grid\CollisionDetection.cs" />
+    <Compile Include="Assets\Dialog_Stuff\Script\DialogSystem.cs" />
+    <Compile Include="Assets\tets.cs" />
     <Compile Include="Assets\Pierre_T\Fade.cs" />
+    <Compile Include="Assets\Pierre_T\scripts\ANKAMA\BattleMode\About_Spell\SpellHead.cs" />
     <Compile Include="Assets\Pierre_T\Movement.cs" />
     <Compile Include="Assets\Pierre_T\EventHouse.cs" />
+    <Compile Include="Assets\Dialog_Stuff\Script\DialogLine.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Pixel Art-assets\Environnement\errors.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

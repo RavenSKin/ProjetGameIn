@@ -7,14 +7,20 @@ TagManager:
   - Obstacle
   - PlayerMoveTile
   - CollisionTriggerSight
+  - Range
+  - Punch
+  - Enemy
+  - textCanvas
+  - PNJ
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - tiles
   - Water
   - UI
-  - 
+  - Collision
   - 
   - 
   - 
